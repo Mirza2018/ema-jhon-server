@@ -63,6 +63,6 @@ async function run() {
 run().catch(console.dir);
 
 app.listen(port, () => {
-    console.log("port no  is", port);
+    console.log("Server is running on", port,"port");
 })
 
